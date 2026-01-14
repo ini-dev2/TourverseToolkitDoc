@@ -117,29 +117,29 @@ namespace TourName
 Конфигурация API должна быть .Net Framework (Player → Other Settings → Configuration)
 
 4. Настройка камеры
-   ![](Pasted%20image%2020260112153500.png)
+   ![](Images/Pasted%20image%2020260112153500.png)
    Находим объект камера(XR Origin), добавляем ему компонент PlayerCamera из namespace TourverseToolkit
-   ![](Pasted%20image%2020260112153613.png)
+   ![](Images/Pasted%20image%2020260112153613.png)
 5. В EntryPoint сценария необходимо вызывать метод для старта сценария
    ![](Images/Pasted%20image%2020260112153720.png)
    Метод TourController.TourStart в параметрах принимает PlayerCamera
 6. Запись статистики успешного запуска:
    В TourverseToolkit метод TourController.CheckPoint(int point)
    Параметр метод принимает int значение - индекс контрольной точки. В случае, если у сценария нет конкретных точек привязки, можно подвязаться на время (30 сек)
-   ![](Pasted%20image%2020260112154126.png)
+   ![](Images/Pasted%20image%2020260112154126.png)
    7. Настройка TourverseToolkit
-![](Pasted%20image%2020260112154235.png)
+![](Images/Pasted%20image%2020260112154235.png)
 Вписываем название тура, переданное выше, игровую сцену и hot-assembly
-![](Pasted%20image%2020260112154400.png)
+![](Images/Pasted%20image%2020260112154400.png)
 И прожимаем кнопку Generate
-![](Pasted%20image%2020260112154448.png)
+![](Images/Pasted%20image%2020260112154448.png)
 Обязательно после Generate нужно проверить название вашего .dll файла в группе адрессблс
-![](Pasted%20image%2020260113152112.png)
+![](Images/Pasted%20image%2020260113152112.png)
 В конце обязательно должно быть .dll
 
 На выходе получаем папку сборки Addressables
-![](Pasted%20image%2020260112154719.png)
-![](Pasted%20image%2020260112154736.png)
+![](Images/Pasted%20image%2020260112154719.png)
+![](Images/Pasted%20image%2020260112154736.png)
 # 7. Примечание
 1. Использование сторонних библиотек - если в проекте используются библиотеки, не существующие в платформе, необходимо сделать запрос на добавление их.
 2.  Использование слоев и тэгов - проекте созданы дефолтные слои и тэги, которые можно использовать
