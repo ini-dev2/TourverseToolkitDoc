@@ -117,17 +117,17 @@ namespace TourName
 Конфигурация API должна быть .Net Framework (Player → Other Settings → Configuration)
 
 4. Настройка камеры
-   ![](Images/Pasted%20image%2020260112153500.png)
-   Находим объект камера(XR Origin), добавляем ему компонент PlayerCamera из namespace TourverseToolkit
-   ![](Images/Pasted%20image%2020260112153613.png)
+![](Images/Pasted%20image%2020260112153500.png)
+Находим объект камера(XR Origin), добавляем ему компонент PlayerCamera из namespace TourverseToolkit
+![](Images/Pasted%20image%2020260112153613.png)
 5. В EntryPoint сценария необходимо вызывать метод для старта сценария
-   ![](Images/Pasted%20image%2020260112153720.png)
-   Метод TourController.TourStart в параметрах принимает PlayerCamera
+![](Images/Pasted%20image%2020260112153720.png)
+Метод TourController.TourStart в параметрах принимает PlayerCamera
 6. Запись статистики успешного запуска:
-   В TourverseToolkit метод TourController.CheckPoint(int point)
-   Параметр метод принимает int значение - индекс контрольной точки. В случае, если у сценария нет конкретных точек привязки, можно подвязаться на время (30 сек)
-   ![](Images/Pasted%20image%2020260112154126.png)
-   7. Настройка TourverseToolkit
+В TourverseToolkit метод TourController.CheckPoint(int point)
+Параметр метод принимает int значение - индекс контрольной точки. В случае, если у сценария нет конкретных точек привязки, можно подвязаться на время (30 сек)
+![](Images/Pasted%20image%2020260112154126.png)
+7. Настройка TourverseToolkit
 ![](Images/Pasted%20image%2020260112154235.png)
 Вписываем название тура, переданное выше, игровую сцену и hot-assembly
 ![](Images/Pasted%20image%2020260112154400.png)
