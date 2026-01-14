@@ -12,7 +12,7 @@ PackageManager --> Install by git url (если нет)
 2. Меняем платформу на Android
 
 # 3. Структура проекта
-Assets/\n
+Assets/
 |-------TourName/
 |--------------Scripts/
 |--------------Resources/
