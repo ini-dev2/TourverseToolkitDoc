@@ -121,7 +121,7 @@ namespace TourName
    Находим объект камера(XR Origin), добавляем ему компонент PlayerCamera из namespace TourverseToolkit
    ![](Pasted%20image%2020260112153613.png)
 5. В EntryPoint сценария необходимо вызывать метод для старта сценария
-   ![](Pasted%20image%2020260112153720.png)
+   ![](Images/Pasted%20image%2020260112153720.png)
    Метод TourController.TourStart в параметрах принимает PlayerCamera
 6. Запись статистики успешного запуска:
    В TourverseToolkit метод TourController.CheckPoint(int point)
